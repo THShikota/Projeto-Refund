@@ -166,6 +166,8 @@ expenseList.addEventListener("click", function(event) {
 
         // Remove item da lista.
         item.remove()
+
+        formClear()
     }
 
     updateTotals()
